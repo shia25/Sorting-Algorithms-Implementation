@@ -57,6 +57,11 @@ public class SortingAlgorithm {
 
         // Applying Hybrid Sort
         hybridSort(inputArray);
+
+        // Printing the sorted array
+        for (int num : inputArray) {
+            System.out.print(num + " ");
+        }
     }
 
 }
